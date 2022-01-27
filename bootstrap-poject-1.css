@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif; 
+}
+.horijonal{
+    border: 10px dotted black;
+    border-bottom: none;
+    width: 110px;
+    background: #92A9BD;
+}
+/* header start */
+header{
+    background-image: url('img/programming.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-item .nav-link{
+    color: #fff;
+    border-radius:5px;
+    margin: 10px;
+    transition: .4s;
+}
+.nav-item .nav-link:hover{
+   background-color: #88E0EF;
+   color: #fff;
+   transform: scale(1.1);
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+
+}
+.banner-container h1{
+    font-size:3rem;
+    background-color: rgba(7, 101 , 189 ,0.8 );
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Handlee', cursive;
+}
+.btn-text{
+    color:#0066ff;
+}
+/* header end */
+/* main >> features start */
+main  #featurse{
+    padding: 5% 10%;
+    background:#FFEFEF;
+}
+.featurse-col{
+    border: 1px solid #0066ff;
+    border-radius: 16px;
+    padding: 5% 10%;
+    margin: 20px 0;
+    transition: .4s;
+}
+.featurse-col:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+.icon-style{
+    background: #88E0EF;
+    color: #fff;
+    padding: 10px 10px;
+}
+/* main >> features end */
+/* main >> about me start */
+#about-me{
+    background-color: #92A9BD;
+    padding: 5% 10%;
+}
+/* main >> about me end */
+/* main >> books start */
+.card-section{
+    background: #D9D7F1;
+    padding: 5% 10%;
+}
+.row .card-style{
+    border: 1px solid #0066ff;
+}
+.row .card{
+    transition: .4s;
+}
+.row .card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+/* main >> books end */
+/* main >> feedback start */
+#feedback{
+    background: #92A9BD;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+}
+/* main >> feedback end */
+/* main >> contect start  */
+#contect{
+    background: #88E0EF;
+    padding: 5% 10%;
+}
+.resize{
+    resize: none;
+}
+/* main >> contect end */
